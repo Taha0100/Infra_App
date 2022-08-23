@@ -193,7 +193,7 @@ class _Council_pageState extends State<Council_page> {
                           Navigator.push(
                               context,
                               MaterialPageRoute(
-                                  builder: (context) => Leader(git)));
+                                  builder: (context) => Leader()));
                           print(nameController.text);
                           print(passwordController.text);
                           print(emailController.text);
